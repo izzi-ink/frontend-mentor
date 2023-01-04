@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://femio.netlify.app/challenge-01/)
-- Live Site URL: [Add live site URL here](https://femio.netlify.app/challenge-01/)
+- Solution URL: [Repo](https://github.com/izzi-ink/frontend-mentor)
+- Live Site URL: [Frontend Mentor Challenges](https://femio.netlify.app/challenge-01/)
 
 ## My process
 
@@ -35,16 +35,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Cards are more complex than they seem.
-It takes time to develop a well crafted Card.
+Cards are more complex than they seem. 
+Enhanced more sustainable solution is in the [index](../index.html) of this solution.
 
 ### Continued development
 
-I am super keen to see how much ChatGPT improves and how we can utilise this further to improve quality of code and education.
+I am super keen to see how much ChatGPT improves and how we can utilize this further to improve quality of code and education.
 
 ## Author
 
-- Website - [Add your name here](https://izzi.ink)
+- Website - [Izzi Ink](https://izzi.ink)
 - Frontend Mentor - [@Izmargad](https://www.frontendmentor.io/profile/Izmargad)
 - Twitter - [@golem37](https://www.twitter.com/golem37)
 

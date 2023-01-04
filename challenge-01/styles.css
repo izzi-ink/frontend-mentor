@@ -43,10 +43,11 @@ body {
 
   .card-container {
     /* Other styles for the card */
+    grid-area: card;
     /* Set the display property to flex */
     display: flex;
      /* Set the flex-grow property to 1 */
-     flex-grow: 1;
+    flex-grow: 1;
     border: #03a2f8 dashed 0px;
     background-color: white;
     max-width: 375px;
