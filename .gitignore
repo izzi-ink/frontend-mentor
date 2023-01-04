@@ -1,0 +1,21 @@
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore directories and files created by Visual Studio Code
+.history/
+*.suo
+*.ntvs_analysis.dat
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.js.map
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build directory
+build/
+
