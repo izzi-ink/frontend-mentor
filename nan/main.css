@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  border: #ee047d solid 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #28214d;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0.5rem;
+  padding-bottom: 0;
+}
+
+
+li {
+  list-style: none;
+  padding: 0.25rem;
+  margin: 16px;
+  padding-bottom: 0;
+
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(250, 250, 250, 0.6);
+  text-align: justify;
+  font-size: 0.9125rem;
+  letter-spacing: 0.35px;
+
+}
+
+a:hover {
+  color: slateblue;
+  text-decoration: underline;
+}
+
+button {
+
+  background-color: #5257d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.35px;
+  cursor: pointer;
+}
+
+.wrapper {
+  border: #ee047d solid 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.card-container {
+  border: #ee047d dashed 0px;
+  /* Other styles for the container */
+  /* Set the display property to flex */
+  display: flex;
+  /* Center the cards in the container */
+  justify-content: center;
+}
+
+
+
+.card {
+  /* Other styles for the card */
+  /* Set the display property to flex */
+  display: flex;
+  /* Set the flex-grow property to 1 */
+  flex-grow: 1;
+  border: #03a2f8 dashed 0px;
+  background-color: white;
+  max-width: 375px;
+  width: 480px;
+  padding: 16px 16px 40px;
+  margin: 0 16px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.07);
+}
+
+.img {
+  border: #03a2f8 dashed 0px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.caption {
+  border: #03a2f8 dashed 0px;
+  color: #1f3251;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 20px 0 16px;
+}
+
+.text {
+  border: #03a2f8 dashed 0px;
+  text-align: justify;
+  color: #383d48;
+  font-size: 1rem;
+  padding: 1rem;
+  letter-spacing: 0.35px;
+}
