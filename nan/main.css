@@ -23,6 +23,9 @@ body {
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   list-style: none;
   padding: 0.5rem;
   padding-bottom: 0;
@@ -30,10 +33,15 @@ ul {
 
 
 li {
+  justify-content: start;
   list-style: none;
+  font-size: 0.75rem;
+  color: rgb(78, 79, 79);
   padding: 0.25rem;
   margin: 16px;
   padding-bottom: 0;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
 
 }
 
