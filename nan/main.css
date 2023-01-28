@@ -106,7 +106,7 @@ button {
   border: #03a2f8 dashed 0px;
   background-color: white;
   max-width: 375px;
-  width: 480px;
+  width: 320px;
   padding: 16px 16px 40px;
   margin: 0 16px;
   border-radius: 20px;
@@ -145,4 +145,11 @@ strong {
   font-style: italic;
   padding: 1rem;
   letter-spacing: 0.35px;
+}
+
+.icon {
+  border: #03a2f8 dashed 0px;
+  color: #5257d8;
+  font-size: 1.5rem;
+  margin: 0 8px;
 }
