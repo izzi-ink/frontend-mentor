@@ -24,8 +24,8 @@ body {
 
 ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: baseline;
   list-style: none;
   padding: 0.5rem;
   padding-bottom: 0;
@@ -33,12 +33,14 @@ ul {
 
 
 li {
-  justify-content: start;
+  justify-self: start;
+  align-items: flex-start;
   list-style: none;
   font-size: 0.75rem;
   color: rgb(78, 79, 79);
   padding: 0.25rem;
-  margin: 16px;
+  padding-bottom: 1.5rem;
+  margin: 4px;
   padding-bottom: 0;
   letter-spacing: 0.35px;
   text-transform: uppercase;
@@ -67,7 +69,7 @@ button {
   border: none;
   border-radius: 5px;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 1rem;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.35px;
@@ -130,7 +132,7 @@ button {
 
 .caption {
   border: #03a2f8 dashed 0px;
-  color: #1f3251;
+  color: #270f6a;
   font-weight: 700;
   font-size: 2rem;
   margin: 20px 0 16px;
