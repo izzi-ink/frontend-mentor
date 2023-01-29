@@ -36,13 +36,13 @@ li {
   justify-self: start;
   align-items: flex-start;
   list-style: none;
-  font-size: 0.75rem;
-  color: rgb(78, 79, 79);
+  font-size: 1rem;
+  color: rgb(155, 155, 155);
   padding: 0.25rem;
   padding-bottom: 1.5rem;
   margin: 4px;
   padding-bottom: 0;
-  letter-spacing: 0.35px;
+  letter-spacing: 0.50px;
   text-transform: uppercase;
 
 }
@@ -77,6 +77,14 @@ button {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+
   border: #ee047d solid 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,6 +111,7 @@ button {
   display: flex;
   /* Center the cards in the container */
   justify-content: center;
+
 }
 
 
@@ -132,7 +141,7 @@ button {
 
 .caption {
   border: #03a2f8 dashed 0px;
-  color: #270f6a;
+  color: #505C6F;
   font-weight: 700;
   font-size: 2rem;
   margin: 20px 0 16px;
@@ -162,4 +171,13 @@ strong {
   color: #5257d8;
   font-size: 1.5rem;
   margin: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
 }

@@ -17,7 +17,13 @@
     <div class="card-container">
       <div class="card">
         <div>
-          <img class="img" src="./img/heart.png" alt="qr code">
+          <img id="myImg" src="./img/heart.png" data-original="original.png">
+          <script>
+            var originalImg = document.getElementById("myImg");
+            var newImg = "./img/alt-nan.png";
+            swapImageOnHover(originalImg, newImg);
+          </script>
+
           <h1 class="caption">Not Just a Number</h1>
           <p class="text">
             Luno, is forced to let go of 35% of their workforce.
@@ -37,6 +43,7 @@
         </div>
       </div>
     </div>
+
   </div>
   <script src="./script.js"></script>
 
